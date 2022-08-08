@@ -16,7 +16,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import theme from '../theme';
-import AccountMenu from './AccountMenu';
+// import AccountMenu from './AccountMenu';
 
 const drawerWidth = 220;
 
@@ -94,7 +94,7 @@ function Dashboard(props) {
                         <MenuIcon />
                     </IconButton>
                 </Toolbar>
-                <AccountMenu />
+                {/* <AccountMenu /> */}
             </AppBar>
 
             <Box
