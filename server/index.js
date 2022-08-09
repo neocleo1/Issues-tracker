@@ -11,7 +11,7 @@ mongoose
     .connect(process.env.MONGODB_URI)
     .then(() => console.log('Connected to IssueTracker Mongo Database ...'))
     .catch((err) =>
-        console.error('Connected to YouShop Mongo Database ...', err.message)
+        console.error('Connected to Tracker Mongo Database ...', err.message)
     );
 
 //Variables
